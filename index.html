@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<link rel="stylesheet" href="stylesver3.css">
+	<!-- created by Luis Quintanilla April 2016, displays best in Chrome -->
+	<!-- The different elements unique to HTML5 that I used were:
+			<header>
+			<nav>
+			<main>
+			<section>
+			<article>
+			<footer>-->
+			
+	<!-- The 2 elements not covered in class that I chose to use were:
+			<meter> - <meter> is used to display a bar to gauge data, in this case I used it to display a rating of my experience at each city on a scale from 0 to 10. The meter tag displays on most browsers with the exception of older versions of IE, in which case it displays the text between the meter tags instead.
+			This tag doesn't have a parent/child relationship with other elements and can be used where appropriate.
+			Relevant attributes that I used for this exercise include:
+			min: the minimum value
+			max: the maximum value
+			value: the set value to be displayed
+			
+			<details> - The <details> tag is an interactive element that a user clicks on to display more information. I chose to use it in the footer of my page to show author info or it can be used to show copyright info or styled to be used as a drop down menu. It is currently supported by most browsers except IE or Edge, instead they just display the info as always open.
+			Semantically the <details> tag is the parent and it uses a child <summary> tag which will be the visual part to be displayed on the page and can be clicked on to show or hide the containing info.
+			Relevant attributes:
+			open: will show the details already open instead of having to click on it to open it.
+			:-->
+			
+			
+<!--[if lt IE 9]>
+	<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+<!-- fonts -->
+<link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Courgette' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro' rel='stylesheet' type='text/css'>
+<!-- fonts end -->
+
+	<title>Travel</title>
+
+</head>
+
+<body>
+
+	<div id="wrapper">
+		<header>
+		<!-- NAV -->
+		<img src="images/logo.png" alt="logo">
+		<nav>
+			<ul>
+				<li><a href="#montreal"><div>Montreal</div></a></li>
+				<li><a href="#varadero"><div>Varadero</div></a></li>
+			</ul>
+		</nav>
+		<h3><a href="../">&lt--Back to main page</a></h3>		
+		<!-- NAV END -->
+		</header>
+
+<main>
+<!-- MONTREAL SECTION -->
+	<section id="montreal">
+		<h1>Montreal</h1>
+		<p>I lived in Montreal for a year between 2012 to 2013. It's been so far my favorite place I've lived, there's so much art, vibrant culture, interesting people, amazing food, history, entertainment, etc. I lived in a part of Montreal called Le Plateau, right infront of a park called La Fontaine, it was really convenient of a location as I had everything I needed nearby and it was also a really beautiful area with old architecture, giant murals, lots of places to eat, and a lot of little interesting shops. I can honestly say I liked just about everything about living in Montreal, rent and food was cheaper than Vancouver and there's so much to see and do. Even the winter I spent there wasn't uncomfortable as it was a novelty for me to see so much snow and feel what -40 degrees feels like on your face. If anything the one thing that <em>was</em> uncomfortable was how humid it was in the summer, Montreal is an island so it gets pretty muggy when you're surrounded by water in hot climate.</p>
+			
+		<!-- thumbnails -->
+		<div class="thumbnails">
+	
+				<div class="crossfade">
+			<a href="images/stcatherine.jpg" target="_blank">
+				<img class="bottom" src="images/enlarge.png" alt="enlarge">
+				<img class="top" src="images/stcatherine.png" alt="thumbnail">
+			</a></div>
+		
+			<div class="crossfade">
+			<a href="images/snow.jpg" target="_blank">
+				<img class="bottom" src="images/enlarge.png" alt="enlarge">
+				<img class="top" src="images/snow.png" alt="thumbnail">
+			</a></div>
+				
+			<div class="crossfade">
+			<a href="images/outdoorrink.jpg" target="_blank">
+				<img class="bottom" src="images/enlarge.png" alt="enlarge">
+				<img class="top" src="images/outdoorrink.png" alt="thumbnail">
+				</a></div>	
+
+		</div>
+		<!-- thumbnails end -->
+			<article>
+				<h2>Personal Rating:</h2>
+				<!-- ATTN JEFF: is this appropriate use for a table? -->
+				<table>
+					<tr><td>Things to do</td><td><meter value="8" min="0" max="10">8 out of 10</meter></td></tr>
+					<tr><td>Hospitality</td><td><meter value="7" min="0" max="10">7 out of 10</meter></td></tr>
+					<tr><td>Food</td><td><meter value="9" min="0" max="10">9 out of 10</meter></td></tr>
+					<tr><td>Weather</td><td><meter value="5" min="0" max="10">5 out of 10</meter></td></tr>
+				</table>
+			</article>
+	</section>
+<!-- MONTREAL SECTION END -->
+
+<!-- VARADERO SECTION -->
+	<section id="varadero">
+		<h1>Varadero</h1>
+		<p>I took a trip to Varadero, Cuba with a few friends in 2013. Flying there from Montreal is actually pretty cheap compared to flying from the west coast. Cuba is one of my favorite places I've ever visited, and because its so small you get to see a lot in a small amount of time. We stayed at a resort called Playa Caleta, a 4-star all inclusive resort overlooking the beach. We took a few day trips while we were there, including snorkeling, horseback riding, cave exploring, off-roading, and a tour of Habana, a cigar factory, a market, and some historical buildings. The weather was perfect the whole time, warm but not scorching hot. The sea was also really call but we had heard that there had been an influx of jellyfish due to a prior cold front, luckily none of us got stung. I had no complaints about Cuba, everyone was friendly and I had fun the entire trip, I'm hoping to go back soon.</p>
+			
+		<!-- thumbnails -->
+		<div class="thumbnails">
+				<div class="crossfade">
+			<a href="images/playacaleta.jpg" target="_blank">
+				<img class="bottom" src="images/enlarge.png" alt="enlarge">
+				<img class="top" src="images/playacaleta.png" alt="thumbnail">
+			</a></div>
+		
+			<div class="crossfade">
+			<a href="images/habana.jpg" target="_blank">
+				<img class="bottom" src="images/enlarge.png" alt="enlarge">
+				<img class="top" src="images/habana.png" alt="thumbnail">
+			</a></div>
+				
+			<div class="crossfade">
+			<a href="images/varadero.jpg" target="_blank">
+				<img class="bottom" src="images/enlarge.png" alt="enlarge">
+				<img class="top" src="images/varadero.png" alt="thumbnail">
+				</a></div>		
+	
+		</div>
+		<!-- thumbnails end -->
+			<article>
+				<h2>Personal Rating:</h2>
+				<table>
+					<tr><td>Things to do</td><td><meter value="9" min="0" max="10">9 out of 10</meter></td></tr>
+					<tr><td>Hospitality</td><td><meter value="7" min="0" max="10">7 out of 10</meter></td></tr>
+					<tr><td>Food</td><td><meter value="10" min="0" max="10">10 out of 10</meter></td></tr>
+					<tr><td>Weather</td><td><meter value="10" min="0" max="10">10 out of 10</meter></td></tr>
+				</table>
+			</article>
+	</section>
+<!-- VARADERO SECTION END -->	
+	
+
+	
+</main>		
+
+<footer>		
+	<details>
+	  <summary>About the author.</summary>
+	  <p>This page was created and formatted by Luis Quintanilla for non-commercial use.</p>
+	  <p>-BCIT Burnaby, 2016.</p>
+	  <p>
+    <a href="http://jigsaw.w3.org/css-validator/validator?uri=http%3A%2F%2Fbcitcomp.ca%2Fstudents%2Flquintanilla%2Fhw2%2F&profile=css3&usermedium=all&warning=1&vextwarning=" target="_blank">
+        <img style="border:0;width:88px;height:31px"
+            src="http://jigsaw.w3.org/css-validator/images/vcss"
+            alt="Valid CSS!" />
+    </a>
+</p>
+	</details>		
+</footer>		
+	</div>
+</body>
+
+</html>

@@ -1,0 +1,165 @@
+@import "reset.css";
+/* created by Luis Quintanilla April 2016 */
+
+html { 
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size:1.09em;
+	}
+
+body {
+	background-image: url('images/background.jpg');
+	background-repeat: no-repeat;
+    background-attachment: fixed;
+	background-color: #F2CA99;
+	background-size: cover;
+}
+
+a {
+	text-decoration:none;
+	color:#000000;
+	}
+
+#wrapper {
+	background-color: rgba(128, 128, 128, 0.5);
+	padding:30px;
+	width: 1000px;
+	margin:15px auto;
+	box-shadow: 10px 10px 10px #000000;
+}
+
+header {
+	background-color: #ffffff;
+	padding:20px 50px;
+	border: 3px dashed #4d4d4d; 
+	border-radius:5px;
+}
+
+nav {
+    text-align: right;
+
+}
+
+header li{
+	display: inline;
+	margin-right:10px;
+}
+
+header li div{
+	display: inline;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 1.3em;
+	background-color:#F2F2F2;
+	padding:6px;
+	border-radius: 5px;
+	box-shadow: 1px 2px 5px; 
+}
+
+section {
+	margin:15px auto 0 auto;
+	background-color: #ffffff;
+	padding:25px;
+	border: 3px dashed #4d4d4d; 
+	border-radius:5px;
+}
+
+article {
+	padding-left:50px;
+	background-color: #ffffff;
+
+}
+
+footer {
+	margin:15px auto 0 auto;
+	background-color: #ffffff;
+	padding:20px;
+	border: 3px dashed #4d4d4d; 
+	border-radius:5px;
+}
+
+details p {
+	margin-top: 10px;
+	margin-left:40px;
+	font-style: italic;}
+
+h1 {
+	font-size:2em;
+	font-family: 'Courgette', cursive;
+	margin-bottom:10px;
+}
+
+h2 {
+	font-size:1.5em;
+}
+
+h3 a{
+	font-weight: bold;
+	color: #a6a6a6;
+	font-size:1.1em;
+}
+
+dt {
+	font-weight: bold;
+	margin-left:20px;
+}
+
+dd {
+	padding:7px;
+}
+
+code{
+	font-weight: bold;
+}
+
+table {
+	margin-top:15px;
+}
+
+table td{
+	padding:5px;
+}
+
+
+/* THUMBNAILS */
+
+.thumbnails {
+	text-align: center;
+	margin:20px;
+}
+
+.thumbnails div {
+	display: inline-block;
+	margin:25px;
+
+}
+
+.crossfade {
+	position:relative;
+	height:200px;
+	width:200px;
+}
+
+.crossfade img {
+  position:absolute;
+  left:0;
+  -webkit-transition: opacity 0.25s ease-in-out;
+  -moz-transition: opacity 0.25s ease-in-out;
+  -o-transition: opacity 0.25s ease-in-out;
+  -ms-transition: opacity 0.25s ease-in-out;
+  transition: opacity 0.25s ease-in-out;
+}
+
+.crossfade img.top:hover {
+  opacity:0.3;
+}
+
+
+/* THUMBNAILS END */
+	
+figure {
+	margin:20px;
+	border: 1px solid #000000; 
+	background-color: #ffffff; 
+	width: 421px;
+	padding: 5px; 
+	float: right;
+	}
